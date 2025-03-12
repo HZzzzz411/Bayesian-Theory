@@ -8,7 +8,7 @@ E步（Expectation Step）
 通过计算条件期望 ( $Q(\theta|\theta_0, x)$ )，我们将隐藏变量的影响融入到优化目标中。
 
 M步（Maximization Step）
-在M步中，最大化 ( $Q(\theta|\theta_0, x)$ ) 以更新参数 ( \theta )。即： $[ \theta^{(m+1)} = \arg\max_\theta Q(\theta|\theta^{(m)}, x), ]$ 其中 ( $\theta^{(m)}$ ) 是第 ( m ) 次迭代的参数估计值。
+在M步中，最大化 ( $Q(\theta|\theta_0, x)$ ) 以更新参数 ( \theta )。即： $[ \theta^{(m+1)} = \arg\max_\theta Q(\theta|\theta^{(m)}, x)]$ 其中 ( $\theta^{(m)}$ ) 是第 ( m ) 次迭代的参数估计值。
 
 通过最大化 ( Q )，找到新的参数估计值，使得似然函数逐步增大。
 
